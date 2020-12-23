@@ -1,0 +1,43 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#formular {
+    padding: 20px 30px;
+    background: rgb(70, 170, 70);
+    border-radius: 12px;
+}
+h3 {
+    margin-top: 10px;
+    margin-bottom: 2px;
+
+}
+.row {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.row div {
+     padding: 10px 12px;
+     background-color: rgb(199, 199, 69);
+     margin: 15px 0px;
+/*třídy začínají tečkou, id hastagem, * je globální pro body, h1-6 apod jsou bez znaku na začátku*/
+}
+#resetBtn {
+    padding: 10px 0px;
+    text-align: center;
+    background-color: teal;
+    text-transform: uppercase;
+    color: white;
+
+}
